@@ -1,9 +1,19 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor – QR Code Component
+
+This is my solution to the [QR Code Component challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) on Frontend Mentor. It's a simple but fun challenge focused on HTML and CSS layout skills.
 
 My version:
 ![Design preview for the QR code component by mdohr07](images/Screenshot%202025-04-29.png)
 
 *See the original on the bottom of this file*
+
+## 🛠 Built with love and...
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- JavaScript (Clipboard API)
+- Accessibility best practices
 
 ## ✨ Extra Features Added
 
@@ -21,6 +31,6 @@ In addition to the required layout and styles from the original Frontend Mentor 
 
 These additions are aimed at improving both user experience and accessibility without altering the core design - and my learning experience, of course.
 
-Original:
+Original Design:
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
