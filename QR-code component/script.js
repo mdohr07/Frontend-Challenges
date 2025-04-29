@@ -6,6 +6,9 @@ function copyToClipboard() {
         // Zeige Feedback-Text
         document.getElementById("copy-feedback").style.display = "block";
       })
+      setTimeout(() => {
+        document.getElementById("copy-feedback").style.display = "none";
+      }, 3000)
   }
 
 

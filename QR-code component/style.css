@@ -68,15 +68,16 @@ h1 {
     font-size: 24px;
 }
 
+.button-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 #copy-button {
-    background-color: #ed2c49;
-    color: #fff;
-    font-family: cursive;
-    letter-spacing: 1px;
     border-radius: 30px;
     border-width: 0;
     padding: 20px 30px;
-    margin-top: 1rem;
+    margin-top: 0.55rem;
     cursor: pointer;
 }
 
@@ -85,9 +86,9 @@ h1 {
     font-style: italic;
     font-size: smaller;
     color: #ed2c49;
-    z-index: 2;
-    margin-top: -85px;
-    margin-right: -200px;
+    text-align: right;
+    height: 10px;
+    margin: 0;
 }
 
 .attribution { 
