@@ -76,7 +76,18 @@ h1 {
     border-radius: 30px;
     border-width: 0;
     padding: 20px 30px;
+    margin-top: 1rem;
     cursor: pointer;
+}
+
+#copy-feedback {
+    font-family: cursive;
+    font-style: italic;
+    font-size: smaller;
+    color: #ed2c49;
+    z-index: 2;
+    margin-top: -85px;
+    margin-right: -200px;
 }
 
 .attribution { 
