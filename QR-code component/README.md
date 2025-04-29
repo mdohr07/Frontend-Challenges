@@ -2,6 +2,8 @@
 
 This is my solution to the [QR Code Component challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) on Frontend Mentor. It's a simple but fun challenge focused on HTML and CSS layout skills.
 
+🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/QR-code%20component/) 
+
 My version:
 ![Design preview for the QR code component by mdohr07](images/Screenshot%202025-04-29.png)
 
