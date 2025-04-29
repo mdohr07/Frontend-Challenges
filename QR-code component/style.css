@@ -68,6 +68,17 @@ h1 {
     font-size: 24px;
 }
 
+#copy-button {
+    background-color: #ed2c49;
+    color: #fff;
+    font-family: cursive;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border-width: 0;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; }
