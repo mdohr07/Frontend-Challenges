@@ -12,7 +12,7 @@ Instead of creating a separate repository for each challenge, I collect them her
 A simple HTML & CSS challenge focused on layout and styling. I also added extra features like buttons to go back and forth.
 
 🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/blog-preview-card/)  
-📂 [`/blog-preview-card`]([QR-code%20component/](https://github.com/mdohr07/Frontend-Challenges/tree/main/blog-preview-card))
+📂 [`/blog-preview-card`](https://github.com/mdohr07/Frontend-Challenges/tree/main/blog-preview-card)
 
 ![Screenshot of Blog Preview Card](https://github.com/mdohr07/Frontend-Challenges/raw/main/blog-preview-card/screenshot.png)
 
