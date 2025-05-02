@@ -32,6 +32,11 @@ function loadArticle(index) {
 }
 
 // For the button
+document.getElementById('prev-article').addEventListener('click', () => {
+    currentIndex = (currentIndex -1 + articles.length) % articles.length;
+    loadArticle(currentIndex);
+});
+
 document.getElementById('next-article').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % articles.length;
     loadArticle(currentIndex);
