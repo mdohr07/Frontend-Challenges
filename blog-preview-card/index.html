@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <main>
+    <div class="wrapper">
+      <section class="image-container">
+        <img src="assets/images/illustration-article.svg" alt="Article illustration">
+      </section>
 
-  Learning
+      <section class="meta">
+        <div class="tags"><a href="#" class="tag">Learning</a></div>
+        <p class="publishdate">Published on <time datetime="2023-12-21">21 Dec 2023</time>
+        </p>
+      </section>
+      <section class="text-container">
+        <h1><a href="#">HTML & CSS foundations</a></h1>
+        <p>
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+      </section>
 
-  Published 21 Dec 2023
+      <section class="author">
+        <img src="assets/images/image-avatar.webp" alt="Greg Hooper">
+        <span><a href="#">Greg Hooper</a></span>
+      </section>
 
-  HTML & CSS foundations
+    </div>
+  </main>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/mdohr07">mdohr07</a>.
   </div>
 </body>
+
 </html>
