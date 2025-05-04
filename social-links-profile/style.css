@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: #141414;
+    --secondary-bg: #1f1f1f;
+    --button-bg: #333333;
+    --button-hover: #444;
+    --main-text: #fff;
+    --secondary-text: #ababab;
+    --hightlight-text: #c5f82a;;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+a, a:active {
+    color: var(--main-text);
+    text-decoration: none;
+    text-decoration:underline dotted;
+}
+
+a:focus {
+    border: 1px solid var(--hightlight-text);
+}
+
+a:hover {
+    color: var(--hightlight-text);
+}
+
+body {
+    background-color: var(--main-bg);
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem; /* 14px */
+    color: var(--main-text);
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-bg);
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.profile-card img {
+    display: flex;
+    width:80px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #fff;
+    padding: 0.25rem;
+    border-radius: 2.5rem;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    color: var(--main-text);
+    font-size: 24px;
+    font-weight: inherit;
+    letter-spacing: 2px;
+}
+
+.location {
+    color: #c5f82a;
+    font-size: smaller;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.top-container p {
+    color: var(--secondary-text);
+    font-size: smaller;
+    margin-top: 1.5rem;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background-color: var(--button-bg);
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--button-hover);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: #2c7dfa; 
+}
