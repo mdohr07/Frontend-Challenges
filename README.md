@@ -3,13 +3,20 @@
 This repository contains all the frontend coding challenges I complete, mainly from [Frontend Mentor](https://www.frontendmentor.io/).  
 Instead of creating a separate repository for each challenge, I collect them here in individual project folders.
 
-
-
 ## 📁 Projects
 
 ### ✅ Blog preview card
 
 A simple HTML & CSS challenge focused on layout and styling. I also added extra features like buttons to go back and forth.
+
+### ✅ Social Links Profile
+
+A responsive profile card challenge using HTML, CSS, and JavaScript. Includes fun extras like random developer quotes and local fonts.
+
+🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/social-links-profile/)  
+📂 [`/social-links-profile`](https://github.com/mdohr07/Frontend-Challenges/tree/main/social-links-profile)
+
+![Screenshot of Social Links Profile](https://github.com/mdohr07/Frontend-Challenges/raw/main/social-links-profile/Screenshot.png)
 
 🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/blog-preview-card/)  
 📂 [`/blog-preview-card`](https://github.com/mdohr07/Frontend-Challenges/tree/main/blog-preview-card)
@@ -24,7 +31,5 @@ A simple HTML & CSS challenge focused on layout and styling. I also added extra 
 📂 [`/QR-code component`](QR-code%20component/)
 
 ![Screenshot of QR Code Component](QR-code%20component/images/Screenshot%202025-04-29.png)
-
-
 
 _More challenges coming soon!_
