@@ -92,12 +92,18 @@ h1 {
     font-size: smaller;
     font-weight: bold;
     margin-top: -15px;
+    margin-bottom: 1rem;
 }
 
 .top-container p {
     color: var(--secondary-text);
     font-size: smaller;
-    margin-top: 1.5rem;
+}
+
+.quote {
+    margin: 0rem;
+    margin-bottom: 1rem;
+    font-style: italic;
 }
 
 .buttons-container {
