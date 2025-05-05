@@ -9,6 +9,11 @@ Instead of creating a separate repository for each challenge, I collect them her
 
 A simple HTML & CSS challenge focused on layout and styling. I also added extra features like buttons to go back and forth.
 
+🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/blog-preview-card/)  
+📂 [`/blog-preview-card`](https://github.com/mdohr07/Frontend-Challenges/tree/main/blog-preview-card)
+
+![Screenshot of Blog Preview Card](https://github.com/mdohr07/Frontend-Challenges/raw/main/blog-preview-card/screenshot.png)
+
 ### ✅ Social Links Profile
 
 A responsive profile card challenge using HTML, CSS, and JavaScript. Includes fun extras like random developer quotes and local fonts.
@@ -18,10 +23,6 @@ A responsive profile card challenge using HTML, CSS, and JavaScript. Includes fu
 
 ![Screenshot of Social Links Profile](https://github.com/mdohr07/Frontend-Challenges/raw/main/social-links-profile/Screenshot.png)
 
-🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/blog-preview-card/)  
-📂 [`/blog-preview-card`](https://github.com/mdohr07/Frontend-Challenges/tree/main/blog-preview-card)
-
-![Screenshot of Blog Preview Card](https://github.com/mdohr07/Frontend-Challenges/raw/main/blog-preview-card/screenshot.png)
 
 ### ✅ QR Code Component
 
