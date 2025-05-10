@@ -6,6 +6,14 @@ Instead of creating a separate repository for each challenge, I collect them her
 ## 📁 Projects
 From newest to oldest
 
+## Recipe page
+ The challenge Recipe Page focuses on semantic HTML and applying modern CSS layout and design practices. I added an option to toggle dark mode.
+
+🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/recipe-page/)  
+📂 [`/recipe-page`](https://github.com/mdohr07/Frontend-Challenges/tree/main/recipe-page)
+
+![Screenshot of Recipe Page](https://github.com/mdohr07/Frontend-Challenges/raw/main/recipe-page/screenshot.png)
+
 ### ✅ Social Links Profile
 
 A responsive profile card challenge using HTML, CSS, and JavaScript. Includes fun extras like random developer quotes and local fonts.
