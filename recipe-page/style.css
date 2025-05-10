@@ -8,8 +8,8 @@
   --rose-800: #7b284f;
   --rose-50: #fff0f5;
 
-  --font-body: 'Outfit', sans-serif;
-  --font-heading: 'Young Serif', serif;
+  --font-body: "Outfit", sans-serif;
+  --font-heading: "Young Serif", serif;
 
   font-size: 16px;
 }
@@ -51,7 +51,6 @@ body {
 
 .description {
   margin-bottom: 2rem;
-  color: var(--stone-600);
 }
 
 h2 {
@@ -69,8 +68,8 @@ h2 {
 }
 
 .prep-time h2 {
-    font-family: var(--font-body);
-    font-size: 18px;
+  font-family: var(--font-body);
+  font-size: 18px;
 }
 
 ul,
@@ -79,12 +78,12 @@ ol {
 }
 
 li {
-    padding: 0.25rem 0rem 0.25rem 1rem;
+  padding: 0.25rem 0rem 0.25rem 1rem;
 }
 
 li::marker {
-    color: var(--rose-800);
-    font-weight: bold;
+  color: var(--rose-800);
+  font-weight: bold;
 }
 
 hr {
@@ -101,70 +100,117 @@ table {
 }
 
 table td {
-    padding: 0.75rem 0.75rem 0.75rem 2rem;
-    border-bottom: 1px solid var(--stone-150);
+  padding: 0.75rem 0.75rem 0.75rem 2rem;
+  border-bottom: 1px solid var(--stone-150);
 }
 
 table td strong {
-    color: var(--rose-800);
+  color: var(--rose-800);
 }
 
 table td:first-child {
   color: var(--stone-600);
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 0.25rem;
+ }
+
+.attribution a { 
+    color: #d72f26; 
+}
+
+#switch {
+    background-color: var(--rose-800);
+    color: var(--rose-50);
+    font-family: var(--font-body);
+    font-size: smaller;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  #switch:hover {
+    background-color: var(--brown-800);
+  }
+  
+  /* Dark Mode Button Anpassung (optional, wenn nötig) */
+  body.dark-mode #switch {
+    background-color: var(--rose-50);
+    color: var(--rose-800);
+  }
+  
+  body.dark-mode #switch:hover {
+    background-color: var(--stone-150);
+  }  
+
 /* Mobile view */
 @media (max-width: 600px) {
-    body {
-        padding: 0;
-    }
+  body {
+    padding: 0;
+  }
 
-    .recipe-container {
-      margin: 0;
-      border-radius: 0;
-      padding: 1.5rem 1rem;
-      width:10
-      0%;
-    }
+  .recipe-container {
+    margin: 0;
+    border-radius: 0;
+    padding: 1.5rem 1rem;
+    width: 10 0%;
+  }
 }
 
 /* Dark Mode */
 body.dark-mode {
-    background-color: var(--stone-900);
-    color: var(--stone-100);
-  }
-  
-  body.dark-mode .recipe-container {
-    background-color: var(--stone-600);
-    color: var(--stone-100);
-  }
-  
-  body.dark-mode .title {
-    color: var(--rose-50);
-  }
-  
-  body.dark-mode h2 {
-    color: var(--rose-50);
-  }
-  
-  body.dark-mode .prep-time {
-    background-color: var(--brown-800);
-    color: var(--stone-100);
-  }
-  
-  body.dark-mode li::marker {
-    color: var(--rose-50);
-  }
-  
-  body.dark-mode hr {
-    background-color: var(--stone-150);
-  }
-  
-  body.dark-mode table td:first-child {
-    color: var(--stone-100);
-  }
-  
-  body.dark-mode table td strong {
-    color: var(--rose-50);
-  }
-  
+  background-color: var(--stone-900);
+  color: var(--stone-100);
+}
+
+body.dark-mode .recipe-container {
+  background-color: var(--stone-600);
+  color: var(--stone-100);
+}
+
+body.dark-mode .title {
+  color: var(--rose-50);
+}
+
+body.dark-mode h2 {
+  color: var(--rose-50);
+}
+
+body.dark-mode .prep-time {
+  background-color: var(--brown-800);
+  color: var(--stone-100);
+}
+
+body.dark-mode li::marker {
+  color: var(--rose-50);
+}
+
+body.dark-mode hr {
+  background-color: var(--stone-150);
+}
+
+body.dark-mode table td:first-child {
+  color: var(--stone-100);
+}
+
+body.dark-mode table td strong {
+  color: var(--rose-50);
+}
+
+/* Transition */
+body,
+.recipe-container,
+h2,
+.title,
+hr,
+table td,
+table td strong,
+.prep-time {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
