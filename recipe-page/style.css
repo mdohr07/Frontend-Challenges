@@ -1,0 +1,128 @@
+:root {
+  --white: #ffffff;
+  --stone-100: #f3e6d8;
+  --stone-150: #e4ded8;
+  --stone-600: #7b7363;
+  --stone-900: #2d2014;
+  --brown-800: #854632;
+  --rose-800: #7b284f;
+  --rose-50: #fff0f5;
+
+  --font-body: 'Outfit', sans-serif;
+  --font-heading: 'Young Serif', serif;
+
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--stone-100);
+  color: var(--stone-600);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.recipe-container {
+  max-width: 50rem; /* ~800px */
+  background-color: var(--white);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--stone-900);
+}
+
+.description {
+  margin-bottom: 2rem;
+  color: var(--stone-600);
+}
+
+h2 {
+  font-family: var(--font-heading);
+  color: var(--rose-800);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prep-time {
+  background-color: var(--rose-50);
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.prep-time h2 {
+    font-family: var(--font-body);
+    font-size: 18px;
+}
+
+ul,
+ol {
+  margin-left: 1rem;
+}
+
+li {
+    padding: 0.25rem 0rem 0.25rem 1rem;
+}
+
+li::marker {
+    color: var(--rose-800);
+    font-weight: bold;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--stone-150);
+  margin: 2rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table td {
+    padding: 0.75rem 0.75rem 0.75rem 2rem;
+    border-bottom: 1px solid var(--stone-150);
+}
+
+table td strong {
+    color: var(--rose-800);
+}
+
+table td:first-child {
+  color: var(--stone-600);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .recipe-container {
+      margin: 0;
+      border-radius: 0;
+      padding: 1.5rem 1rem;
+      width:10
+      0%;
+    }
+}
