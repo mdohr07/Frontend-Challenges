@@ -1,42 +1,58 @@
-* {
+:root {
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --font-size-base: 0.8125rem; /* 13px */
+  }
+  
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-body {
+  
+  body {
     font-family: 'Manrope', sans-serif;
-    background-color: hsl(210, 46%, 95%);
-    font-size: 13px;
-    margin: 0;
-    padding: 2rem;
+    background-color: var(--light-grayish-blue);
+    font-size: var(--font-size-base);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 2rem;
+    text-align: left;
   }
   
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
   .card {
     display: flex;
-    max-width: 730px;
+    max-width: 45.625rem; /* 730px */
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     overflow: hidden;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1.25rem 1.875rem rgba(0, 0, 0, 0.1);
   }
   
   .card-image {
     flex: 1;
-    background-image: url('images/drawer.jpg');
+    background-image: url('images/drawers.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 200px;
+    min-height: 12.5rem; /* 200px */
   }
   
   .card-content {
     flex: 1;
     padding: 2rem;
-    color: hsl(217, 19%, 35%);
+    color: var(--very-dark-grayish-blue);
   }
   
   .card-content h1 {
@@ -46,7 +62,7 @@ body {
   }
   
   .card-content p {
-    color: hsl(214, 17%, 51%);
+    color: var(--desaturated-dark-blue);
     line-height: 1.5;
     margin-bottom: 2rem;
   }
@@ -63,8 +79,8 @@ body {
   }
   
   .author img {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;  /* 40px */
+    height: 2.5rem;
     border-radius: 50%;
     margin-right: 1rem;
   }
@@ -72,20 +88,20 @@ body {
   .author-info .name {
     display: block;
     font-weight: 700;
-    color: hsl(217, 19%, 35%);
+    color: var(--very-dark-grayish-blue);
   }
   
   .author-info .date {
     display: block;
-    color: hsl(212, 23%, 69%);
+    color: var(--grayish-blue);
   }
   
   .share-button {
-    background-color: hsl(210, 46%, 95%);
+    background-color: var(--light-grayish-blue);
     border: none;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 2rem;   /* 32px */
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,17 +110,23 @@ body {
   }
   
   .share-button:hover {
-    background-color: hsl(212, 23%, 69%);
+    background-color: var(--grayish-blue);
   }
   
-  @media (max-width: 768px) {
+  .attribution {
+    margin: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 48rem) { /* 768px */
     .card {
       flex-direction: column;
       max-width: 90%;
     }
   
     .card-image {
-      height: 200px;
+      height: 12.5rem;
     }
   }
   
