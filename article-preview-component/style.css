@@ -33,7 +33,8 @@
   }
 
   .card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     max-width: 45.625rem; /* 730px */
     background-color: white;
     border-radius: 0.625rem;
@@ -112,6 +113,40 @@
   .share-button:hover {
     background-color: var(--grayish-blue);
   }
+
+  .hidden {
+    display: none;
+  }
+
+  #shareMenu {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    margin-left: 30px;
+    bottom: 350px;
+    border-radius: 15px;
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--light-grayish-blue);
+    z-index: 100;
+    position: absolute;
+  }
+
+  #shareMenu::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: var(--very-dark-grayish-blue) transparent transparent transparent;
+}
+
+  #shareMenu span {
+    margin-right: 1rem;
+  }
   
   .attribution {
     margin: 1rem;
@@ -120,9 +155,13 @@
   }
   
   @media (max-width: 48rem) { /* 768px */
+    body {
+      padding: 1.5rem;
+    }
+    
     .card {
-      flex-direction: column;
-      max-width: 90%;
+      grid-template-columns: 1fr;
+      width: 100%;
     }
   
     .card-image {

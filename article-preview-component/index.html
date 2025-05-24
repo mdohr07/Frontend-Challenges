@@ -13,36 +13,47 @@
 
 <body>
   <main class="wrapper">
-  <div class="card">
-    <div class="card-image"></div>
-    <div class="card-content">
-      <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
-      <p>
-        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.
-        I’ve got some simple tips to help you make any room feel complete.
-      </p>
-      <div class="card-footer">
-        <div class="author">
-          <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" />
-          <div class="author-info">
-            <span class="name">Michelle Appleton</span>
-            <span class="date">28 Jun 2020</span>
+    <div class="card">
+      <div class="card-image"></div>
+      <div class="card-content">
+        <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.
+          I’ve got some simple tips to help you make any room feel complete.
+        </p>
+        <div class="card-footer">
+          <div class="author">
+            <img src="images/avatar-michelle.jpg" alt="Michelle Appleton" />
+            <div class="author-info">
+              <span class="name">Michelle Appleton</span>
+              <span class="date">28 Jun 2020</span>
+            </div>
+          </div>
+
+          <div id="shareMenuContainer" class="hidden">
+          <div id="shareMenu">
+            <span>SHARE</span>
+              <img src="images/icon-facebook.svg" alt="Share icon" />
+              <img src="images/icon-twitter.svg" alt="Share icon" />
+              <img src="images/icon-pinterest.svg" alt="Share icon" />
+            
           </div>
         </div>
-        <button class="share-button">
-          <img src="images/icon-share.svg" alt="Share icon" />
-        </button>
+
+          <button class="share-button" id="share-button" onclick="toggleShareMenu">
+            <img src="images/icon-share.svg" alt="Share icon" />
+          </button>
+        </div>
       </div>
     </div>
-  </div>  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/mdohr07">mdohr07</a>.
-  </div>
-</main>
 
-<script src="script.js"></script>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/mdohr07">mdohr07</a>.
+    </div>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
