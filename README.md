@@ -6,6 +6,15 @@ Instead of creating a separate repository for each challenge, I collect them her
 ## 📁 Projects
 From newest to oldest
 
+## Article preview component  
+This challenge focuses on layout techniques with CSS Grid and Flexbox, semantic HTML, and a responsive interactive tooltip menu. I added JavaScript functionality to toggle the share menu and close it on outside click.
+
+🔗 [Live demo](https://mdohr07.github.io/Frontend-Challenges/article-preview-component/)  
+📂 [`/article-preview-component`](https://github.com/mdohr07/Frontend-Challenges/tree/main/article-preview-component)
+
+![Screenshot of Article Preview Component](https://github.com/mdohr07/Frontend-Challenges/raw/main/article-preview-component/preview.png)
+
+
 ## Recipe page
  The challenge Recipe Page focuses on semantic HTML and applying modern CSS layout and design practices. I added an option to toggle dark mode.
 
